@@ -1,0 +1,24 @@
+{
+    "Defaults":{
+        "DBDATA" : "${MGRDIR}irisapp/",
+        "APPNS" : "IRISAPP"
+    },
+    "SYS.Databases":{
+        "${DBDATA}" : {}
+    },
+    "Databases":{
+        "${APPNS}" : {
+            "Directory" : "${DBDATA}"
+        }
+    },
+    "Namespaces":{
+        "${APPNS}": {
+            "Globals":"${APPNS}"
+        }
+    },
+    "ZPM":{
+        "${APPNS}" : [{
+            "load":"/opt/irisbuild/ -v"
+        }]
+    }
+}
