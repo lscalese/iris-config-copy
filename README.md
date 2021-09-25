@@ -18,7 +18,7 @@ The target instance perform REST request to get the config from the source insta
 zpm "install config-copy"
 ```
 
-Non ZPM users should import and compile ./dist/config-copy_for_IRIS.xml file on IRIS instance or ./config-copy_for_HealthShare.xml on HealthShare instance.
+Non ZPM users should import and compile [config-copy_for_IRIS.xml](https://github.com/lscalese/iris-config-copy/blob/master/dist/config-copy_for_IRIS.xml) or [config-copy_for_HealthShare.xml](https://github.com/lscalese/iris-config-copy/blob/master/dist/config-copy_for_HealthShare.xml) if you use HealthShare and not IRIS yet.
 
 On the source instance we need to create a web application used by the target instance to retrieve the configuration.
 
@@ -36,7 +36,7 @@ Install config-api on a Ensemble enabled namespace.  (To enable Ensemble use : `
 zpm "install config-copy"
 ```
 
-Non ZPM users should import and compile ./dist/config-copy_for_IRIS.xml file on IRIS instance or ./config-copy_for_HealthShare.xml on HealthShare instance.
+Non ZPM users should import and compile [config-copy_for_IRIS.xml](https://github.com/lscalese/iris-config-copy/blob/master/dist/config-copy_for_IRIS.xml) or [config-copy_for_HealthShare.xml](https://github.com/lscalese/iris-config-copy/blob/master/dist/config-copy_for_HealthShare.xml) if you use HealthShare and not IRIS yet.  
 
 We must setup ip address (or hostname), port, SSConfig (in case of https usage) and credential to access to the source instance.
 
