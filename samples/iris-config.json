@@ -1,0 +1,42 @@
+{
+    "Defaults":{
+        "DBDATA" : "${MGRDIR}testcopy/",
+        "APPNS" : "TESTCOPY"
+    },
+    "SYS.Databases":{
+        "${DBDATA}" : {}
+    },
+    "Databases":{
+        "${APPNS}" : {
+            "Directory" : "${DBDATA}"
+        }
+    },
+    "Namespaces":{
+        "${APPNS}": {
+            "Globals":"${APPNS}"
+        }
+    },
+    "Library.SQLConnection": {
+        "SQLConnectionToCopy" : {}
+    },
+    "Security.SSLConfigs": {
+        "SSLConfigToCOPY":{
+            "CAFile":"",
+            "CAPath":"",
+            "CertificateFile":"",
+            "CipherList":"ALL:!aNULL:!eNULL:!EXP:!SSLv2",
+            "Ciphersuites":"TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256",
+            "Description":"",
+            "Enabled":true,
+            "PrivateKeyFile":"",
+            "PrivateKeyPassword":"",
+            "PrivateKeyType":"2",
+            "SNIName":"",
+            "TLSMaxVersion":"32",
+            "TLSMinVersion":"16",
+            "Type":"0",
+            "VerifyDepth":9,
+            "VerifyPeer":0
+        }
+    }
+}

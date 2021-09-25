@@ -11,3 +11,17 @@ services:
       - 53773
     volumes:
       - ./:/irisrun/repo
+      - ./samples:/opt/samples
+  
+  client:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports: 
+      - 1972
+      - 42773:52773
+      - 53773
+    volumes:
+      - ./:/irisrun/repo
+      - ./samples:/opt/samples

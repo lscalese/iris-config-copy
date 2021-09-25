@@ -16,6 +16,15 @@
             "Globals":"${APPNS}"
         }
     },
+    "Security.Applications":{
+        "/csp/lscalese/configcopy":{
+            "AutheEnabled":"32",
+            "CookiePath":"/csp/lscalese/configcopy/",
+            "DispatchClass":"lscalese.configcopy.rest.disp",
+            "Name":"/csp/lscalese/configcopy",
+            "NameSpace":"${APPNS}"
+        }
+    },
     "ZPM":{
         "${APPNS}" : [{
             "load":"/opt/irisbuild/ -v"
