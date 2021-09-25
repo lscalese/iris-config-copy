@@ -1,10 +1,12 @@
 version: '3.6'
 services:
   iris:
+    image: configcopyapp
     build: 
       context: .
       dockerfile: Dockerfile
     restart: always
+    command: --after "sh /opt/samples/source_instance.sh"
     ports: 
       - 1972
       - 52773
@@ -14,10 +16,12 @@ services:
       - ./samples:/opt/samples
   
   client:
+    image: configcopyapp
     build: 
       context: .
       dockerfile: Dockerfile
     restart: always
+    command: --after "sh /opt/samples/target_instance.sh"
     ports: 
       - 1972
       - 42773:52773
