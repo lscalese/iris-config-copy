@@ -54,7 +54,7 @@ ClassMethod Tasks(Filename As %String = "TasksExport.xml") As %Status
         Return $$$OK  ; Nothing to export
     }
 
-    Return ##class(%SYS.TaskSuper).ExportTasks(TaskListId)
+    Return ##class(%SYS.TaskSuper).ExportTasks(TaskListId, Filename)
 }
 
 ClassMethod Globals(Filename As %String = "GlobalsExport.xml") As %Status

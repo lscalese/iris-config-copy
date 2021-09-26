@@ -70,7 +70,7 @@ Set sc = ##class(lscalese.configcopy.RemoteExport).All($zu(12,"config-copy-remot
 
 ### Import configuration from local files.
 
-Adatp the following examples with the path of each configuration files.  
+Adapt the following examples with the path of each configuration files.  
 
 Import security   
 
