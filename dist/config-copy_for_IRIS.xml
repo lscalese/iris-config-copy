@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Export generator="IRIS" version="26" zv="IRIS for UNIX (Ubuntu Server LTS for x86-64 Containers) 2020.4 (Build 547U)" ts="2021-09-25 07:48:35">
+<Export generator="IRIS" version="26" zv="IRIS for UNIX (Ubuntu Server LTS for x86-64 Containers) 2020.4 (Build 547U)" ts="2021-09-26 07:52:25">
 <Class name="Api.Config.Developers.ClassGenerator">
 <Description>
 DON'T USE.  (class used for first code generation.)
@@ -10,8 +10,8 @@ Generator for
 Classes in %SYS config package are pretty similar.
 So, We can write easily an algorithm to generate needed classes.</Description>
 <Super>%RegisteredObject</Super>
-<TimeChanged>66011,29866.887291</TimeChanged>
-<TimeCreated>66011,29866.887291</TimeCreated>
+<TimeChanged>66013,27458.469333</TimeChanged>
+<TimeCreated>66013,27458.469333</TimeCreated>
 
 <Property name="class">
 <Description>
@@ -1238,8 +1238,8 @@ zw ##class(Api.Config.Developers.Helper).GenObjectToArray("","")
 zw ##class(Api.Config.Developers.Helper).GenToDynamic("","")
 do ##class(Api.Config.Developers.Helper).ShowSwaggerDef("")</Description>
 <System>2</System>
-<TimeChanged>66011,29866.863563</TimeChanged>
-<TimeCreated>66011,29866.863563</TimeCreated>
+<TimeChanged>66013,27458.442275</TimeChanged>
+<TimeCreated>66013,27458.442275</TimeCreated>
 
 <Method name="GenCommonMethod">
 <Description>
@@ -1542,8 +1542,8 @@ Description</Description>
 <Class name="Api.Config.Developers.Install">
 <Description>
 Description</Description>
-<TimeChanged>66011,29866.869194</TimeChanged>
-<TimeCreated>66011,29866.869194</TimeCreated>
+<TimeChanged>66013,27458.441997</TimeChanged>
+<TimeCreated>66013,27458.441997</TimeCreated>
 
 <Method name="installRESTApp">
 <ClassMethod>1</ClassMethod>
@@ -1597,8 +1597,8 @@ Description</Description>
 <Description>
 code samples
 Description</Description>
-<TimeChanged>66011,29866.925501</TimeChanged>
-<TimeCreated>66011,29866.925501</TimeCreated>
+<TimeChanged>66013,27458.477618</TimeChanged>
+<TimeCreated>66013,27458.477618</TimeCreated>
 
 <Method name="firstStep">
 <ClassMethod>1</ClassMethod>
@@ -1927,8 +1927,8 @@ d ##class(Api.Config.Developers.Utils).Show(##class(Api.Config.Developers.Sample
 <Class name="Api.Config.Developers.UnitTestsClassGen">
 <Description>
 Dev helper to generate template UnitTests classes for services.</Description>
-<TimeChanged>66011,29866.895887</TimeChanged>
-<TimeCreated>66011,29866.895887</TimeCreated>
+<TimeChanged>66013,27458.484594</TimeChanged>
+<TimeCreated>66013,27458.484594</TimeCreated>
 
 <Parameter name="PACKAGE">
 <Default>UnitTests.Api.Config.Services.</Default>
@@ -2122,8 +2122,8 @@ Dev helper to generate template UnitTests classes for services.</Description>
 <Description>
 Description</Description>
 <System>2</System>
-<TimeChanged>66011,29866.889698</TimeChanged>
-<TimeCreated>66011,29866.889698</TimeCreated>
+<TimeChanged>66013,27458.486264</TimeChanged>
+<TimeCreated>66013,27458.486264</TimeCreated>
 
 <Method name="Show">
 <Description>
@@ -2176,12 +2176,12 @@ zw ##class(Api.Config.Developers.Utils).buildXmlRelease()</Description>
 <Description><![CDATA[
 Config API.<br/>
 Business logic class defined by OpenAPI in Api.Config.REST.spec<br/>
-Updated Sep 24, 2021 08:17:47]]></Description>
+Updated Sep 26, 2021 07:37:39]]></Description>
 <IncludeCode>Api.Config.inc</IncludeCode>
 <ProcedureBlock>1</ProcedureBlock>
 <Super>%REST.Impl</Super>
-<TimeChanged>66011,29868.015282</TimeChanged>
-<TimeCreated>66011,29866.971774</TimeCreated>
+<TimeChanged>66013,27459.568084</TimeChanged>
+<TimeCreated>66013,27458.582732</TimeCreated>
 
 <Parameter name="ExposeServerExceptions">
 <Description>
@@ -4973,8 +4973,8 @@ The method arguments hold values for:<br/>
 <Class name="Api.Config.REST.spec">
 <ProcedureBlock>1</ProcedureBlock>
 <Super>%REST.Spec</Super>
-<TimeChanged>66011,29867.067197</TimeChanged>
-<TimeCreated>66011,29867.067197</TimeCreated>
+<TimeChanged>66013,27458.616378</TimeChanged>
+<TimeCreated>66013,27458.616378</TimeCreated>
 
 <XData name="OpenAPI">
 <MimeType>application/json</MimeType>
@@ -13889,8 +13889,8 @@ The method arguments hold values for:<br/>
 <Class name="Api.Config.Services.Cluster">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Single</Super>
-<TimeChanged>66011,29866.968643</TimeChanged>
-<TimeCreated>66011,29866.968643</TimeCreated>
+<TimeChanged>66013,27458.51599</TimeChanged>
+<TimeCreated>66013,27458.51599</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.Cluster</Default>
@@ -13901,8 +13901,8 @@ The method arguments hold values for:<br/>
 <Class name="Api.Config.Services.Common.Methods">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.MethodsObjectGenerator</Super>
-<TimeChanged>66011,29867.302875</TimeChanged>
-<TimeCreated>66011,29867.302875</TimeCreated>
+<TimeChanged>66013,27458.861363</TimeChanged>
+<TimeCreated>66013,27458.861363</TimeCreated>
 
 <Parameter name="SYSCLASS">
 </Parameter>
@@ -14020,8 +14020,8 @@ The method arguments hold values for:<br/>
 
 <Class name="Api.Config.Services.Common.MethodsObjectGenerator">
 <IncludeCode>Api.Config.inc</IncludeCode>
-<TimeChanged>66011,29867.296361</TimeChanged>
-<TimeCreated>66011,29867.296361</TimeCreated>
+<TimeChanged>66013,27458.918213</TimeChanged>
+<TimeCreated>66013,27458.918213</TimeCreated>
 
 <Method name="ObjectToArray">
 <ClassMethod>1</ClassMethod>
@@ -14113,8 +14113,8 @@ The method arguments hold values for:<br/>
 <Class name="Api.Config.Services.Common.Single">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.MethodsObjectGenerator</Super>
-<TimeChanged>66011,29867.315817</TimeChanged>
-<TimeCreated>66011,29867.315817</TimeCreated>
+<TimeChanged>66013,27458.879198</TimeChanged>
+<TimeCreated>66013,27458.879198</TimeCreated>
 
 <Parameter name="SYSCLASS">
 </Parameter>
@@ -14157,8 +14157,8 @@ The method arguments hold values for:<br/>
 <Class name="Api.Config.Services.Common.SwaggerGenerator">
 <Description>
 Description</Description>
-<TimeChanged>66011,29867.334993</TimeChanged>
-<TimeCreated>66011,29867.334993</TimeCreated>
+<TimeChanged>66013,27458.885364</TimeChanged>
+<TimeCreated>66013,27458.885364</TimeCreated>
 
 <Method name="GetSwaggerDefinition">
 <ClassMethod>1</ClassMethod>
@@ -14250,8 +14250,8 @@ Description</Description>
 <Class name="Api.Config.Services.ConfigFile">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Single</Super>
-<TimeChanged>66011,29867.009815</TimeChanged>
-<TimeCreated>66011,29867.009815</TimeCreated>
+<TimeChanged>66013,27458.571219</TimeChanged>
+<TimeCreated>66013,27458.571219</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.ConfigFile</Default>
@@ -14273,8 +14273,8 @@ Description</Description>
 <Class name="Api.Config.Services.Databases">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Methods</Super>
-<TimeChanged>66011,29867.034557</TimeChanged>
-<TimeCreated>66011,29867.034557</TimeCreated>
+<TimeChanged>66013,27458.593083</TimeChanged>
+<TimeCreated>66013,27458.593083</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.Databases</Default>
@@ -14297,8 +14297,8 @@ Description</Description>
 <Class name="Api.Config.Services.Debug">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Methods</Super>
-<TimeChanged>66011,29867.044653</TimeChanged>
-<TimeCreated>66011,29867.044653</TimeCreated>
+<TimeChanged>66013,27458.615648</TimeChanged>
+<TimeCreated>66013,27458.615648</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.Debug</Default>
@@ -14320,8 +14320,8 @@ Description</Description>
 <Class name="Api.Config.Services.DeviceSubTypes">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Methods</Super>
-<TimeChanged>66011,29867.067526</TimeChanged>
-<TimeCreated>66011,29867.067526</TimeCreated>
+<TimeChanged>66013,27458.638622</TimeChanged>
+<TimeCreated>66013,27458.638622</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.DeviceSubTypes</Default>
@@ -14343,8 +14343,8 @@ Description</Description>
 <Class name="Api.Config.Services.Devices">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Methods</Super>
-<TimeChanged>66011,29867.059279</TimeChanged>
-<TimeCreated>66011,29867.059279</TimeCreated>
+<TimeChanged>66013,27458.624511</TimeChanged>
+<TimeCreated>66013,27458.624511</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.Devices</Default>
@@ -14369,8 +14369,8 @@ Description</Description>
 <Class name="Api.Config.Services.ECP">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Single</Super>
-<TimeChanged>66011,29867.080889</TimeChanged>
-<TimeCreated>66011,29867.080889</TimeCreated>
+<TimeChanged>66013,27458.661164</TimeChanged>
+<TimeCreated>66013,27458.661164</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.ECP</Default>
@@ -14381,8 +14381,8 @@ Description</Description>
 <Class name="Api.Config.Services.ECPServers">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Methods</Super>
-<TimeChanged>66011,29867.10247</TimeChanged>
-<TimeCreated>66011,29867.10247</TimeCreated>
+<TimeChanged>66013,27458.660993</TimeChanged>
+<TimeCreated>66013,27458.660993</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.ECPServers</Default>
@@ -14405,8 +14405,8 @@ Description</Description>
 <Class name="Api.Config.Services.IO">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Single</Super>
-<TimeChanged>66011,29867.092528</TimeChanged>
-<TimeCreated>66011,29867.092528</TimeCreated>
+<TimeChanged>66013,27458.671626</TimeChanged>
+<TimeCreated>66013,27458.671626</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.IO</Default>
@@ -14417,8 +14417,8 @@ Description</Description>
 <Class name="Api.Config.Services.Journal">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Single</Super>
-<TimeChanged>66011,29867.118342</TimeChanged>
-<TimeCreated>66011,29867.118342</TimeCreated>
+<TimeChanged>66013,27458.683236</TimeChanged>
+<TimeCreated>66013,27458.683236</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Description>
@@ -14432,8 +14432,8 @@ Description</Description>
 <Description>
 Description</Description>
 <Super>Api.Config.Services.Common.Methods</Super>
-<TimeChanged>66011,29867.322402</TimeChanged>
-<TimeCreated>66011,29867.322402</TimeCreated>
+<TimeChanged>66013,27458.905207</TimeChanged>
+<TimeCreated>66013,27458.905207</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>%Library.SQLConnection</Default>
@@ -14542,8 +14542,8 @@ Description</Description>
 <Class name="Api.Config.Services.LicenseServers">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Methods</Super>
-<TimeChanged>66011,29867.116361</TimeChanged>
-<TimeCreated>66011,29867.116361</TimeCreated>
+<TimeChanged>66013,27458.713461</TimeChanged>
+<TimeCreated>66013,27458.713461</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.LicenseServers</Default>
@@ -14565,8 +14565,8 @@ Description</Description>
 <Class name="Api.Config.Services.Loader">
 <Description>
 Description</Description>
-<TimeChanged>66011,29867.135413</TimeChanged>
-<TimeCreated>66011,29867.135413</TimeCreated>
+<TimeChanged>66013,27458.70703</TimeChanged>
+<TimeCreated>66013,27458.70703</TimeCreated>
 
 <Method name="test">
 <ClassMethod>1</ClassMethod>
@@ -15208,8 +15208,8 @@ toFile : if you want to export to a file, fill toFile argument with the filepath
 <Class name="Api.Config.Services.MagTapes">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Methods</Super>
-<TimeChanged>66011,29867.143006</TimeChanged>
-<TimeCreated>66011,29867.143006</TimeCreated>
+<TimeChanged>66013,27458.705555</TimeChanged>
+<TimeCreated>66013,27458.705555</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.MagTapes</Default>
@@ -15232,8 +15232,8 @@ toFile : if you want to export to a file, fill toFile argument with the filepath
 <Class name="Api.Config.Services.MapGlobals">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.MethodsObjectGenerator</Super>
-<TimeChanged>66011,29867.157437</TimeChanged>
-<TimeCreated>66011,29867.157437</TimeCreated>
+<TimeChanged>66013,27458.731261</TimeChanged>
+<TimeCreated>66013,27458.731261</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.MapGlobals</Default>
@@ -15364,8 +15364,8 @@ toFile : if you want to export to a file, fill toFile argument with the filepath
 <Class name="Api.Config.Services.MapMirrors">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.MethodsObjectGenerator</Super>
-<TimeChanged>66011,29867.165103</TimeChanged>
-<TimeCreated>66011,29867.165103</TimeCreated>
+<TimeChanged>66013,27458.741607</TimeChanged>
+<TimeCreated>66013,27458.741607</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.MapMirrors</Default>
@@ -15497,8 +15497,8 @@ toFile : if you want to export to a file, fill toFile argument with the filepath
 <Class name="Api.Config.Services.MapPackages">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.MethodsObjectGenerator</Super>
-<TimeChanged>66011,29867.177274</TimeChanged>
-<TimeCreated>66011,29867.177274</TimeCreated>
+<TimeChanged>66013,27458.766059</TimeChanged>
+<TimeCreated>66013,27458.766059</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.MapPackages</Default>
@@ -15620,8 +15620,8 @@ Description</Description>
 <Class name="Api.Config.Services.MapRoutines">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.MethodsObjectGenerator</Super>
-<TimeChanged>66011,29867.182509</TimeChanged>
-<TimeCreated>66011,29867.182509</TimeCreated>
+<TimeChanged>66013,27458.781751</TimeChanged>
+<TimeCreated>66013,27458.781751</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.MapRoutines</Default>
@@ -15741,8 +15741,8 @@ Description</Description>
 <Class name="Api.Config.Services.MapShadows">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.MethodsObjectGenerator</Super>
-<TimeChanged>66011,29867.201499</TimeChanged>
-<TimeCreated>66011,29867.201499</TimeCreated>
+<TimeChanged>66013,27458.758458</TimeChanged>
+<TimeCreated>66013,27458.758458</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.MapShadows</Default>
@@ -15871,8 +15871,8 @@ Description</Description>
 <Class name="Api.Config.Services.MirrorMember">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Single</Super>
-<TimeChanged>66011,29867.191594</TimeChanged>
-<TimeCreated>66011,29867.191594</TimeCreated>
+<TimeChanged>66013,27458.76635</TimeChanged>
+<TimeCreated>66013,27458.76635</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.MirrorMember</Default>
@@ -15883,8 +15883,8 @@ Description</Description>
 <Class name="Api.Config.Services.Mirrors">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Methods</Super>
-<TimeChanged>66011,29867.221948</TimeChanged>
-<TimeCreated>66011,29867.221948</TimeCreated>
+<TimeChanged>66013,27458.786615</TimeChanged>
+<TimeCreated>66013,27458.786615</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.Mirrors</Default>
@@ -15928,8 +15928,8 @@ Description</Description>
 <Class name="Api.Config.Services.Miscellaneous">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Single</Super>
-<TimeChanged>66011,29867.203646</TimeChanged>
-<TimeCreated>66011,29867.203646</TimeCreated>
+<TimeChanged>66013,27458.790066</TimeChanged>
+<TimeCreated>66013,27458.790066</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.Miscellaneous</Default>
@@ -15940,8 +15940,8 @@ Description</Description>
 <Class name="Api.Config.Services.Monitor">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Single</Super>
-<TimeChanged>66011,29867.218618</TimeChanged>
-<TimeCreated>66011,29867.218618</TimeCreated>
+<TimeChanged>66013,27458.814567</TimeChanged>
+<TimeCreated>66013,27458.814567</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.Monitor</Default>
@@ -15952,8 +15952,8 @@ Description</Description>
 <Class name="Api.Config.Services.Namespaces">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Methods</Super>
-<TimeChanged>66011,29867.224768</TimeChanged>
-<TimeCreated>66011,29867.224768</TimeCreated>
+<TimeChanged>66013,27458.805511</TimeChanged>
+<TimeCreated>66013,27458.805511</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.Namespaces</Default>
@@ -16000,8 +16000,8 @@ Description</Description>
 <Class name="Api.Config.Services.SQL">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Single</Super>
-<TimeChanged>66011,29867.246412</TimeChanged>
-<TimeCreated>66011,29867.246412</TimeCreated>
+<TimeChanged>66013,27458.815045</TimeChanged>
+<TimeCreated>66013,27458.815045</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.SQL</Default>
@@ -16012,8 +16012,8 @@ Description</Description>
 <Class name="Api.Config.Services.SYS.Databases">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.MethodsObjectGenerator</Super>
-<TimeChanged>66011,29867.352326</TimeChanged>
-<TimeCreated>66011,29867.352326</TimeCreated>
+<TimeChanged>66013,27458.903983</TimeChanged>
+<TimeCreated>66013,27458.903983</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>SYS.Database</Default>
@@ -16194,8 +16194,8 @@ Description</Description>
 
 <Class name="Api.Config.Services.SYS.MirrorFailOver">
 <Super>Api.Config.Services.Common.MethodsObjectGenerator</Super>
-<TimeChanged>66011,29867.346998</TimeChanged>
-<TimeCreated>66011,29867.346998</TimeCreated>
+<TimeChanged>66013,27458.910404</TimeChanged>
+<TimeCreated>66013,27458.910404</TimeCreated>
 
 <Method name="JoinMirrorAsFailoverMember">
 <Description>
@@ -16331,8 +16331,8 @@ Description</Description>
 <Description>
 Description</Description>
 <Super>Api.Config.Services.Common.MethodsObjectGenerator</Super>
-<TimeChanged>66011,29867.346644</TimeChanged>
-<TimeCreated>66011,29867.346644</TimeCreated>
+<TimeChanged>66013,27458.930929</TimeChanged>
+<TimeCreated>66013,27458.930929</TimeCreated>
 
 <Method name="Update">
 <Description>
@@ -16463,8 +16463,8 @@ Description</Description>
 Description</Description>
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Methods</Super>
-<TimeChanged>66011,29867.374386</TimeChanged>
-<TimeCreated>66011,29867.374386</TimeCreated>
+<TimeChanged>66013,27458.941871</TimeChanged>
+<TimeCreated>66013,27458.941871</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Security.Applications</Default>
@@ -16475,8 +16475,8 @@ Description</Description>
 <Class name="Api.Config.Services.Security.GenericExport">
 <Description>
 Description</Description>
-<TimeChanged>66011,29867.38457</TimeChanged>
-<TimeCreated>66011,29867.38457</TimeCreated>
+<TimeChanged>66013,27458.94255</TimeChanged>
+<TimeCreated>66013,27458.94255</TimeCreated>
 
 <Method name="ExportAll">
 <ClassMethod>1</ClassMethod>
@@ -16749,8 +16749,8 @@ Description</Description>
 <Class name="Api.Config.Services.Security.LDAPConfigs">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Methods</Super>
-<TimeChanged>66011,29867.392944</TimeChanged>
-<TimeCreated>66011,29867.392944</TimeCreated>
+<TimeChanged>66013,27458.969474</TimeChanged>
+<TimeCreated>66013,27458.969474</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Security.LDAPConfigs</Default>
@@ -16761,8 +16761,8 @@ Description</Description>
 <Class name="Api.Config.Services.Security.Resources">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Methods</Super>
-<TimeChanged>66011,29867.379588</TimeChanged>
-<TimeCreated>66011,29867.379588</TimeCreated>
+<TimeChanged>66013,27458.955394</TimeChanged>
+<TimeCreated>66013,27458.955394</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Security.Resources</Default>
@@ -16784,8 +16784,8 @@ Description</Description>
 <Class name="Api.Config.Services.Security.Roles">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Methods</Super>
-<TimeChanged>66011,29867.408323</TimeChanged>
-<TimeCreated>66011,29867.408323</TimeCreated>
+<TimeChanged>66013,27458.964324</TimeChanged>
+<TimeCreated>66013,27458.964324</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Security.Roles</Default>
@@ -16808,8 +16808,8 @@ Description</Description>
 <Description>
 Description</Description>
 <Super>Api.Config.Services.Common.MethodsObjectGenerator</Super>
-<TimeChanged>66011,29867.413939</TimeChanged>
-<TimeCreated>66011,29867.413939</TimeCreated>
+<TimeChanged>66013,27458.980696</TimeChanged>
+<TimeCreated>66013,27458.980696</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Security.SQLAdminPrivilegeSet</Default>
@@ -16990,8 +16990,8 @@ Description</Description>
 <Description>
 Description</Description>
 <Super>Api.Config.Services.Common.Methods</Super>
-<TimeChanged>66011,29867.42792</TimeChanged>
-<TimeCreated>66011,29867.42792</TimeCreated>
+<TimeChanged>66013,27458.991583</TimeChanged>
+<TimeCreated>66013,27458.991583</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Security.SQLPrivileges</Default>
@@ -17209,8 +17209,8 @@ Description</Description>
 <Class name="Api.Config.Services.Security.SSLConfigs">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Methods</Super>
-<TimeChanged>66011,29867.433817</TimeChanged>
-<TimeCreated>66011,29867.433817</TimeCreated>
+<TimeChanged>66013,27459.007684</TimeChanged>
+<TimeCreated>66013,27459.007684</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Security.SSLConfigs</Default>
@@ -17222,8 +17222,8 @@ Description</Description>
 <Description>
 Description</Description>
 <IncludeCode>Api.Config.inc</IncludeCode>
-<TimeChanged>66011,29867.405028</TimeChanged>
-<TimeCreated>66011,29867.405028</TimeCreated>
+<TimeChanged>66013,27458.984104</TimeChanged>
+<TimeCreated>66013,27458.984104</TimeCreated>
 
 <Parameter name="UPDATEONLY">
 <Default>1</Default>
@@ -17331,8 +17331,8 @@ Description</Description>
 <Class name="Api.Config.Services.Security.Users">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Methods</Super>
-<TimeChanged>66011,29867.438696</TimeChanged>
-<TimeCreated>66011,29867.438696</TimeCreated>
+<TimeChanged>66013,27459.004794</TimeChanged>
+<TimeCreated>66013,27459.004794</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Security.Users</Default>
@@ -17355,8 +17355,8 @@ Description</Description>
 <Class name="Api.Config.Services.Shadows">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Methods</Super>
-<TimeChanged>66011,29867.246379</TimeChanged>
-<TimeCreated>66011,29867.246379</TimeCreated>
+<TimeChanged>66013,27458.820354</TimeChanged>
+<TimeCreated>66013,27458.820354</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.Shadows</Default>
@@ -17379,8 +17379,8 @@ Description</Description>
 <Class name="Api.Config.Services.SqlSysDatatypes">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Methods</Super>
-<TimeChanged>66011,29867.253533</TimeChanged>
-<TimeCreated>66011,29867.253533</TimeCreated>
+<TimeChanged>66013,27458.832146</TimeChanged>
+<TimeCreated>66013,27458.832146</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.SqlSysDatatypes</Default>
@@ -17403,8 +17403,8 @@ Description</Description>
 <Class name="Api.Config.Services.SqlUserDatatypes">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Methods</Super>
-<TimeChanged>66011,29867.250029</TimeChanged>
-<TimeCreated>66011,29867.250029</TimeCreated>
+<TimeChanged>66013,27458.864242</TimeChanged>
+<TimeCreated>66013,27458.864242</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.SqlUserDatatypes</Default>
@@ -17427,8 +17427,8 @@ Description</Description>
 <Class name="Api.Config.Services.Startup">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Single</Super>
-<TimeChanged>66011,29867.287601</TimeChanged>
-<TimeCreated>66011,29867.287601</TimeCreated>
+<TimeChanged>66013,27458.837481</TimeChanged>
+<TimeCreated>66013,27458.837481</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.Startup</Default>
@@ -17439,8 +17439,8 @@ Description</Description>
 <Class name="Api.Config.Services.Telnet">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Single</Super>
-<TimeChanged>66011,29867.287464</TimeChanged>
-<TimeCreated>66011,29867.287464</TimeCreated>
+<TimeChanged>66013,27458.854372</TimeChanged>
+<TimeCreated>66013,27458.854372</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.Telnet</Default>
@@ -17451,8 +17451,8 @@ Description</Description>
 <Class name="Api.Config.Services.ZPM">
 <Description>
 Description</Description>
-<TimeChanged>66011,29867.272407</TimeChanged>
-<TimeCreated>66011,29867.272407</TimeCreated>
+<TimeChanged>66013,27458.855636</TimeChanged>
+<TimeCreated>66013,27458.855636</TimeCreated>
 
 <Method name="Execute">
 <Description>
@@ -17472,8 +17472,8 @@ Description</Description>
 <Class name="Api.Config.Services.config">
 <IncludeCode>Api.Config.inc</IncludeCode>
 <Super>Api.Config.Services.Common.Single</Super>
-<TimeChanged>66011,29867.012507</TimeChanged>
-<TimeCreated>66011,29867.012507</TimeCreated>
+<TimeChanged>66013,27458.539582</TimeChanged>
+<TimeCreated>66013,27458.539582</TimeCreated>
 
 <Parameter name="SYSCLASS">
 <Default>Config.config</Default>
@@ -17485,8 +17485,8 @@ Description</Description>
 <Description>
 Description</Description>
 <Super>%Persistent</Super>
-<TimeChanged>66011,29866.864473</TimeChanged>
-<TimeCreated>66011,29866.864473</TimeCreated>
+<TimeChanged>66013,27458.44363</TimeChanged>
+<TimeCreated>66013,27458.44363</TimeCreated>
 
 <Property name="created">
 <Type>%TimeStamp</Type>
@@ -17526,7 +17526,7 @@ Description</Description>
 </Class>
 
 
-<Routine name="Api.Config.inc" type="INC" timestamp="66011,29866.82753"><![CDATA[
+<Routine name="Api.Config.inc" type="INC" timestamp="66013,27458.401188"><![CDATA[
 
 #Define SRVPKG              Api.Config.Services
 /// HTTP Status Code
@@ -17552,7 +17552,7 @@ Description</Description>
 ]]></Routine>
 
 
-<Routine name="IORedirect" type="INC" timestamp="66011,29866.136284"><![CDATA[
+<Routine name="IORedirect" type="INC" timestamp="66013,27457.714716"><![CDATA[
 
 #Define OldIO                   %zIORedirect("OldIO")
 #Define OldMnemonic             %zIORedirect("OldMnemonic")
@@ -17584,8 +17584,8 @@ Description</Description>
 <Class name="IORedirect.InputHandler">
 <Abstract>1</Abstract>
 <IncludeCode>IORedirect</IncludeCode>
-<TimeChanged>66011,29866.090343</TimeChanged>
-<TimeCreated>66011,29866.090343</TimeCreated>
+<TimeChanged>66013,27457.663344</TimeChanged>
+<TimeCreated>66013,27457.663344</TimeCreated>
 
 <Parameter name="USETIMEOUT">
 <Default>0</Default>
@@ -17613,8 +17613,8 @@ Description</Description>
 <Class name="IORedirect.InputStream">
 <IncludeCode>IORedirect</IncludeCode>
 <Super>InputHandler</Super>
-<TimeChanged>66011,29866.08774</TimeChanged>
-<TimeCreated>66011,29866.08774</TimeCreated>
+<TimeChanged>66013,27457.646861</TimeChanged>
+<TimeCreated>66013,27457.646861</TimeCreated>
 
 <Method name="InChar">
 <Description>
@@ -17664,8 +17664,8 @@ Timeout parameter won't used in this subclass.</Description>
 <Class name="IORedirect.InputString">
 <IncludeCode>IORedirect</IncludeCode>
 <Super>InputHandler</Super>
-<TimeChanged>66011,29866.085193</TimeChanged>
-<TimeCreated>66011,29866.085193</TimeCreated>
+<TimeChanged>66013,27457.650941</TimeChanged>
+<TimeCreated>66013,27457.650941</TimeCreated>
 
 <Method name="InChar">
 <Description>
@@ -17721,8 +17721,8 @@ Timeout parameter won't used in this subclass.</Description>
 <Class name="IORedirect.OutputGlobal">
 <IncludeCode>IORedirect</IncludeCode>
 <Super>IORedirect.OutputHandler</Super>
-<TimeChanged>66011,29866.117895</TimeChanged>
-<TimeCreated>66011,29866.117895</TimeCreated>
+<TimeChanged>66013,27457.661203</TimeChanged>
+<TimeCreated>66013,27457.661203</TimeCreated>
 
 <Method name="Clear">
 <ClassMethod>1</ClassMethod>
@@ -17807,8 +17807,8 @@ Timeout parameter won't used in this subclass.</Description>
 <Description>
 Description</Description>
 <Abstract>1</Abstract>
-<TimeChanged>66011,29866.119919</TimeChanged>
-<TimeCreated>66011,29866.119919</TimeCreated>
+<TimeChanged>66013,27457.671694</TimeChanged>
+<TimeCreated>66013,27457.671694</TimeCreated>
 
 <Method name="OutChar">
 <Abstract>1</Abstract>
@@ -17859,8 +17859,8 @@ Description</Description>
 <Class name="IORedirect.OutputStream">
 <IncludeCode>IORedirect</IncludeCode>
 <Super>IORedirect.OutputHandler</Super>
-<TimeChanged>66011,29866.109597</TimeChanged>
-<TimeCreated>66011,29866.109597</TimeCreated>
+<TimeChanged>66013,27457.691865</TimeChanged>
+<TimeCreated>66013,27457.691865</TimeCreated>
 
 <Method name="Clear">
 <ClassMethod>1</ClassMethod>
@@ -17963,8 +17963,8 @@ Description</Description>
 <Class name="IORedirect.OutputString">
 <IncludeCode>IORedirect</IncludeCode>
 <Super>IORedirect.OutputHandler</Super>
-<TimeChanged>66011,29866.125237</TimeChanged>
-<TimeCreated>66011,29866.125237</TimeCreated>
+<TimeChanged>66013,27457.685901</TimeChanged>
+<TimeCreated>66013,27457.685901</TimeCreated>
 
 <Method name="Clear">
 <ClassMethod>1</ClassMethod>
@@ -18043,8 +18043,8 @@ Description</Description>
 
 <Class name="IORedirect.Redirect">
 <IncludeCode>IORedirect</IncludeCode>
-<TimeChanged>66011,29866.133223</TimeChanged>
-<TimeCreated>66011,29866.133223</TimeCreated>
+<TimeChanged>66013,27457.706564</TimeChanged>
+<TimeCreated>66013,27457.706564</TimeCreated>
 
 <Parameter name="OUTPUTSTREAM">
 <Default>IORedirect.OutputStream</Default>
@@ -18270,8 +18270,8 @@ wtab(s)      Do $CLASSMETHOD($$$RedirectOutputHandler,"OutTab")  Quit
 <Class name="lscalese.configcopy.ExportFilterTemplate">
 <Description>
 Description</Description>
-<TimeChanged>66011,29869.133511</TimeChanged>
-<TimeCreated>66011,29869.133511</TimeCreated>
+<TimeChanged>66013,27460.580351</TimeChanged>
+<TimeCreated>66013,27460.580351</TimeCreated>
 
 <Method name="Get">
 <ClassMethod>1</ClassMethod>
@@ -18312,8 +18312,8 @@ Description</Description>
 <Class name="lscalese.configcopy.ImportFromRemote">
 <Description>
 Export configuration from the remote instance and import this instance.</Description>
-<TimeChanged>66011,50198.416874</TimeChanged>
-<TimeCreated>66011,44578.305571</TimeCreated>
+<TimeChanged>66013,27460.567612</TimeChanged>
+<TimeCreated>66013,27460.567612</TimeCreated>
 
 <Method name="All">
 <Description>
@@ -18332,6 +18332,9 @@ Set sc = ##class(lscalese.configcopy.ImportFromRemote).All()</Description>
     Set scO = ..CPFData()
     Set:$$$ISERR(scO) sc = $$$ADDSC(sc,scO)
 
+    Set scO = ..Tasks()
+    Set:$$$ISERR(scO) sc = $$$ADDSC(sc,scO)
+    
     Return sc
 ]]></Implementation>
 </Method>
@@ -18396,14 +18399,33 @@ Description</Description>
     Return sc
 ]]></Implementation>
 </Method>
+
+<Method name="Tasks">
+<ClassMethod>1</ClassMethod>
+<ReturnType>%Status</ReturnType>
+<Implementation><![CDATA[
+    Set sc = $$$OK, Filename = ##class(%File).TempFilename()
+
+    Try {
+        $$$TOE(sc,##class(lscalese.configcopy.RemoteExport).Tasks(Filename))
+        $$$TOE(sc,##class(lscalese.configcopy.LocalImport).Tasks(Filename))
+    } Catch (ex) {
+        Set sc = ex.AsStatus()
+    }
+    
+    Do ##class(%File).Delete(Filename)
+
+    Return sc
+]]></Implementation>
+</Method>
 </Class>
 
 
 <Class name="lscalese.configcopy.LocalExport">
 <Description>
 Export configuration of this instance</Description>
-<TimeChanged>66012,26469.81149</TimeChanged>
-<TimeCreated>66011,29869.102331</TimeCreated>
+<TimeChanged>66013,27460.567627</TimeChanged>
+<TimeCreated>66013,27460.567627</TimeCreated>
 
 <Method name="All">
 <Description>
@@ -18469,7 +18491,7 @@ d ##class(lscalese.configcopy.LocalExport).All()</Description>
         Return $$$OK  ; Nothing to export
     }
 
-    Return ##class(%SYS.TaskSuper).ExportTasks(TaskListId)
+    Return ##class(%SYS.TaskSuper).ExportTasks(TaskListId, Filename)
 ]]></Implementation>
 </Method>
 
@@ -18605,8 +18627,8 @@ Export CPF Section using config-api tools.</Description>
 <Class name="lscalese.configcopy.LocalImport">
 <Description>
 Description</Description>
-<TimeChanged>66012,26372.407129</TimeChanged>
-<TimeCreated>66011,29869.123266</TimeCreated>
+<TimeChanged>66013,27460.58769</TimeChanged>
+<TimeCreated>66013,27460.58769</TimeCreated>
 
 <Method name="CPFData">
 <Description>
@@ -18688,8 +18710,8 @@ Load CPF configuration data from a json format config-api</Description>
 <Description>
 Export configuration from a remote instance using a REST api.
 config-copy tools must be also installed on the remote instance.</Description>
-<TimeChanged>66012,24493.089908</TimeChanged>
-<TimeCreated>66011,29869.159783</TimeCreated>
+<TimeChanged>66013,27460.609809</TimeChanged>
+<TimeCreated>66013,27460.609809</TimeCreated>
 
 <Method name="All">
 <ClassMethod>1</ClassMethod>
@@ -18722,7 +18744,7 @@ config-copy tools must be also installed on the remote instance.</Description>
 <FormalSpec>Filename:%String="",*config:%DynamicObject=""</FormalSpec>
 <ReturnType>%Status</ReturnType>
 <Implementation><![CDATA[
-    ; zw ##class(lscalese.configcopy.RemoteExport).ExportCPFData(,.cfg)
+    ; zw ##class(lscalese.configcopy.RemoteExport).CPFData(,.cfg)
     Set client = ##class(lscalese.configcopy.client.HttpClient).%New()
     Set pRequest = ##class(lscalese.configcopy.client.msg.ExportConfigRequest).%New()
     $$$QuitOnError(client.GETExportConfig(pRequest,.pResponse))
@@ -18742,7 +18764,7 @@ config-copy tools must be also installed on the remote instance.</Description>
 <FormalSpec>Filename:%String="",*TasksStream:%Stream.GlobalBinary</FormalSpec>
 <ReturnType>%Status</ReturnType>
 <Implementation><![CDATA[
-    ; d ##class(lscalese.configcopy.RemoteExport).ExportTasks(,.ts)
+    ; d ##class(lscalese.configcopy.RemoteExport).Tasks(,.ts)
     Set sc = $$$OK
     Set client = ##class(lscalese.configcopy.client.HttpClient).%New()
     Set pRequest = ##class(lscalese.configcopy.client.msg.ExportTasksRequest).%New()
@@ -18769,7 +18791,7 @@ config-copy tools must be also installed on the remote instance.</Description>
 <FormalSpec>Filename:%String="",*SecurityStream:%Stream.GlobalBinary</FormalSpec>
 <ReturnType>%Status</ReturnType>
 <Implementation><![CDATA[
-    ; zw ##class(lscalese.configcopy.RemoteExport).ExportSecurity(,.ss)
+    ; zw ##class(lscalese.configcopy.RemoteExport).Security(,.ss)
     Set sc = $$$OK
     Set client = ##class(lscalese.configcopy.client.HttpClient).%New()
     Set pRequest = ##class(lscalese.configcopy.client.msg.ExportSecurityRequest).%New()
@@ -18796,7 +18818,7 @@ config-copy tools must be also installed on the remote instance.</Description>
 <FormalSpec>Filename:%String="",*GlobalsStream:%Stream.GlobalBinary</FormalSpec>
 <ReturnType>%Status</ReturnType>
 <Implementation><![CDATA[
-    ; zw ##class(lscalese.configcopy.RemoteExport).ExportGlobals(,.gs)
+    ; zw ##class(lscalese.configcopy.RemoteExport).Globals(,.gs)
     Set sc = $$$OK
     Set client = ##class(lscalese.configcopy.client.HttpClient).%New()
     Set pRequest = ##class(lscalese.configcopy.client.msg.getexportsysglobalsRequest).%New()
@@ -18823,8 +18845,8 @@ config-copy tools must be also installed on the remote instance.</Description>
 <Class name="lscalese.configcopy.Utils">
 <Description>
 Description</Description>
-<TimeChanged>66012,27904.424308</TimeChanged>
-<TimeCreated>66011,42392.534365</TimeCreated>
+<TimeChanged>66013,27460.614319</TimeChanged>
+<TimeCreated>66013,27460.614319</TimeCreated>
 
 <Method name="Install">
 <Description>
@@ -18833,7 +18855,6 @@ Do ##class(lscalese.configcopy.Utils).Install("localhost",52773)</Description>
 <FormalSpec>RemoteHost:%String="localhost",RemotePort:%Integer=52773,SSLConfig:%String=""</FormalSpec>
 <ReturnType>%Status</ReturnType>
 <Implementation><![CDATA[
-
     Do ..SetCredential(,,$$$NO)
     Do ..SetRemoteSettings(RemoteHost, RemotePort, SSLConfig)
     Return ..SetWebApp()
@@ -18859,6 +18880,7 @@ Do ##class(lscalese.configcopy.Utils).SetRemoteSettings("localhost",52773)</Desc
 <FormalSpec>Username:%String="_system",Password:%String="SYS",Override:%Boolean=$$$YES</FormalSpec>
 <ReturnType>%Status</ReturnType>
 <Implementation><![CDATA[
+    Do:'##class(%Library.EnsembleMgr).IsEnsembleNamespace($NAMESPACE) ##class(%Library.EnsembleMgr).EnableNamespace($NAMESPACE)
     Set credentialId = ##class(lscalese.configcopy.client.HttpClient).%GetParameter("CREDENTIALID")
     Return ##class(Ens.Config.Credentials).SetCredential(credentialId, Username, Password, Override)
 ]]></Implementation>
@@ -18868,28 +18890,32 @@ Do ##class(lscalese.configcopy.Utils).SetRemoteSettings("localhost",52773)</Desc
 <ClassMethod>1</ClassMethod>
 <ReturnType>%Status</ReturnType>
 <Implementation><![CDATA[
+    Set params("DispatchClass") = $Select($$$LOWER($ZVersion)["iris":"lscalese.configcopy.rest.disp",1:"lscalese.configcopy.rest.hsdisp")
+    ;Set params("DispatchClass")="lscalese.configcopy.rest.hsdisp"
+
     Set config = {
         "Security.Applications":{
             "/csp/lscalese/configcopy":{
                 "AutheEnabled":"32",
                 "CookiePath":"/csp/lscalese/configcopy/",
-                "DispatchClass":"lscalese.configcopy.rest.disp",
+                "DispatchClass":"${DispatchClass}",
                 "Name":"/csp/lscalese/configcopy",
                 "NameSpace":"${NAMESPACE}"
             }
         }
     }
     
-    Return ##class(Api.Config.Services.Loader).Load(config)
+    Return ##class(Api.Config.Services.Loader).Load(config, .params)
 ]]></Implementation>
 </Method>
 
 <Method name="buildXmlRelease">
+<Description>
+Do ##class(lscalese.configcopy.Utils).buildXmlRelease()</Description>
 <ClassMethod>1</ClassMethod>
 <FormalSpec>filename:%String="/irisrun/repo/dist/config-copy_for_IRIS.xml"</FormalSpec>
 <ReturnType>%Status</ReturnType>
 <Implementation><![CDATA[
-
     Do:##class(%File).Exists(filename) ##class(%File).Delete(filename)
     Set items = ""
     Set items("Api.Config.inc.INC")=""
@@ -18900,14 +18926,67 @@ Do ##class(lscalese.configcopy.Utils).SetRemoteSettings("localhost",52773)</Desc
     Quit $SYSTEM.OBJ.Export(.items,filename)
 ]]></Implementation>
 </Method>
+
+<Method name="buildHSXmlRelease">
+<Description>
+Do ##class(lscalese.configcopy.Utils).buildHSXmlRelease()</Description>
+<ClassMethod>1</ClassMethod>
+<FormalSpec>filename:%String="/irisrun/repo/dist/config-copy_for_HealthShare.xml"</FormalSpec>
+<ReturnType>%Status</ReturnType>
+<Implementation><![CDATA[
+    Set sc = $$$OK
+
+    Do:##class(%File).Exists(filename) ##class(%File).Delete(filename)
+    Set items = ""
+    Set items("Api.Config.inc.INC")=""
+    Set items("IORedirect.INC")=""
+    Set items("Api.Config.*.CLS")=""
+    Set items("IORedirect.*.CLS")=""
+    Set items("lscalese.configcopy.*.CLS")=""
+
+    Set items("'lscalese.configcopy.rest.disp.CLS")=""
+    Set items("'lscalese.configcopy.rest.impl.CLS")=""
+    Set items("'lscalese.configcopy.rest.spec.CLS")=""
+    Set items("'Api.Config.Services.Security.SQLPrivileges.CLS")=""
+    Set items("'Api.Config.REST.disp.CLS")=""
+    Set items("'Api.Config.REST.impl.CLS")=""
+    Set items("'Api.Config.REST.spec.CLS")=""
+    
+    If $$$LOWER($ZVersion) [ "iris" {
+        
+        $$$QuitOnError($SYSTEM.OBJ.ExportToStream(.items, .stream))
+        Do stream.Rewind()
+        
+        Set fc = ##class(%Stream.FileCharacter).%New()
+        $$$QuitOnError(fc.LinkToFile(filename))
+
+        Do fc.WriteLine(stream.ReadLine())
+        Do stream.ReadLine()
+
+        Set exportLine = "<Export generator=""Cache"" version=""25"" zv=""Cache for Windows (x86-64) 2012.2.3 (Build 903U)"" ts="""_$zdt($h,3,1)_""">"
+        Do fc.WriteLine(exportLine)
+
+        While 'stream.AtEnd {
+            Do fc.WriteLine(stream.ReadLine())
+        }
+        Set sc = fc.%Save()
+        kill fc
+
+    } Else {
+        Set sc = $SYSTEM.OBJ.Export(.items, filename)
+    }
+
+    Return sc
+]]></Implementation>
+</Method>
 </Class>
 
 
 <Class name="lscalese.configcopy.client.HttpClient">
 <ProcedureBlock>1</ProcedureBlock>
 <Super>%RegisteredObject</Super>
-<TimeChanged>66011,51151.476043</TimeChanged>
-<TimeCreated>66011,29869.135177</TimeCreated>
+<TimeChanged>66013,27460.644837</TimeChanged>
+<TimeCreated>66013,27460.644837</TimeCreated>
 
 <Parameter name="CREDENTIALID">
 <Default>config-copy</Default>
@@ -19096,8 +19175,8 @@ Copy the node ^%SYS("sql","ODBCCONNECTION") into ^ExportTmp and export it.</Desc
 <Class name="lscalese.configcopy.client.model.spec">
 <ProcedureBlock>1</ProcedureBlock>
 <Super>%RegisteredObject</Super>
-<TimeChanged>66011,29869.21978</TimeChanged>
-<TimeCreated>66011,29869.21978</TimeCreated>
+<TimeChanged>66013,27460.646692</TimeChanged>
+<TimeCreated>66013,27460.646692</TimeCreated>
 
 <XData name="OpenAPI">
 <MimeType>application/json</MimeType>
@@ -19221,8 +19300,8 @@ Request Object for application : lscalese.configcopy.client
 <br/>Service : ExportConfig]]></Description>
 <ProcedureBlock>1</ProcedureBlock>
 <Super>%Persistent</Super>
-<TimeChanged>66011,29869.206779</TimeChanged>
-<TimeCreated>66011,29869.206779</TimeCreated>
+<TimeChanged>66013,27460.647517</TimeChanged>
+<TimeCreated>66013,27460.647517</TimeCreated>
 <Inheritance>left</Inheritance>
 
 <Property name="accept">
@@ -19266,8 +19345,8 @@ Request Object for application : lscalese.configcopy.client
 <br/>Service : ExportSecurity]]></Description>
 <ProcedureBlock>1</ProcedureBlock>
 <Super>%Persistent</Super>
-<TimeChanged>66011,29869.177994</TimeChanged>
-<TimeCreated>66011,29869.177994</TimeCreated>
+<TimeChanged>66013,27460.662017</TimeChanged>
+<TimeCreated>66013,27460.662017</TimeCreated>
 <Inheritance>left</Inheritance>
 
 <Property name="accept">
@@ -19311,8 +19390,8 @@ Request Object for application : lscalese.configcopy.client
 <br/>Service : ExportTasks]]></Description>
 <ProcedureBlock>1</ProcedureBlock>
 <Super>%Persistent</Super>
-<TimeChanged>66011,29869.223291</TimeChanged>
-<TimeCreated>66011,29869.223291</TimeCreated>
+<TimeChanged>66013,27460.697491</TimeChanged>
+<TimeCreated>66013,27460.697491</TimeCreated>
 <Inheritance>left</Inheritance>
 
 <Property name="accept">
@@ -19353,8 +19432,8 @@ accept : <ul>
 <Class name="lscalese.configcopy.client.msg.GenericResponse">
 <ProcedureBlock>1</ProcedureBlock>
 <Super>%Persistent</Super>
-<TimeChanged>66011,29869.219463</TimeChanged>
-<TimeCreated>66011,29869.219463</TimeCreated>
+<TimeChanged>66013,27460.705144</TimeChanged>
+<TimeCreated>66013,27460.705144</TimeCreated>
 <Inheritance>left</Inheritance>
 
 <Property name="body">
@@ -19430,8 +19509,8 @@ Request Object for application : lscalese.configcopy.client
 <br/>Service : GetSpec]]></Description>
 <ProcedureBlock>1</ProcedureBlock>
 <Super>%Persistent</Super>
-<TimeChanged>66011,29869.291142</TimeChanged>
-<TimeCreated>66011,29869.291142</TimeCreated>
+<TimeChanged>66013,27460.70317</TimeChanged>
+<TimeCreated>66013,27460.70317</TimeCreated>
 <Inheritance>left</Inheritance>
 
 <Property name="accept">
@@ -19472,8 +19551,8 @@ accept : <ul>
 <Class name="lscalese.configcopy.client.msg.ParsedResponse">
 <ProcedureBlock>1</ProcedureBlock>
 <Super>%Persistent,%XML.Adaptor</Super>
-<TimeChanged>66011,29869.275549</TimeChanged>
-<TimeCreated>66011,29869.275549</TimeCreated>
+<TimeChanged>66013,27460.734648</TimeChanged>
+<TimeCreated>66013,27460.734648</TimeCreated>
 <Inheritance>right</Inheritance>
 
 <Storage name="Default">
@@ -19498,8 +19577,8 @@ Request Object for application : lscalese.configcopy.client
 <br/>Service : getexportsysglobals]]></Description>
 <ProcedureBlock>1</ProcedureBlock>
 <Super>%Persistent</Super>
-<TimeChanged>66011,29869.245045</TimeChanged>
-<TimeCreated>66011,29869.245045</TimeCreated>
+<TimeChanged>66013,27460.69706</TimeChanged>
+<TimeCreated>66013,27460.69706</TimeCreated>
 <Inheritance>left</Inheritance>
 
 <Property name="accept">
@@ -19537,14 +19616,171 @@ accept : <ul>
 </Class>
 
 
+<Class name="lscalese.configcopy.rest.hsdisp">
+<Description>
+This is an implementation of lscalese.configcopy.rest.disp especially for HealthShare
+%REST is not available on HealthShare we need a special implementation HealthShare support.</Description>
+<Super>%CSP.REST</Super>
+<TimeChanged>66013,27460.75176</TimeChanged>
+<TimeCreated>66013,27460.75176</TimeCreated>
+
+<Parameter name="CONVERTINPUTSTREAM">
+<Description>
+By default convert the input stream to Unicode</Description>
+<Default>1</Default>
+</Parameter>
+
+<Parameter name="CHARSET">
+<Description>
+The default response charset is utf-8</Description>
+<Default>utf-8</Default>
+</Parameter>
+
+<XData name="UrlMap">
+<XMLNamespace>http://www.intersystems.com/urlmap</XMLNamespace>
+<Data><![CDATA[
+<Routes>
+  <!-- Swagger 2.0 specification -->
+  <Route Url="/" Method="get" Call="GetSpec" />
+  <Route Url="/export/sysglobals/" Method="get" Call="ExportSysglobals" />
+  <Route Url="/export/config/" Method="get" Call="ExportConfig" />
+  <Route Url="/export/tasks/" Method="get" Call="ExportTasks" />
+  <Route Url="/export/security/" Method="get" Call="ExportSecurity" />
+</Routes>
+]]></Data>
+</XData>
+
+<Method name="GetSpec">
+<ClassMethod>1</ClassMethod>
+<ReturnType>%Status</ReturnType>
+<Implementation><![CDATA[
+    Write {"msg":"Only available with IRIS"}.%ToJSON()
+    Quit $$$OK
+]]></Implementation>
+</Method>
+
+<Method name="ExportSysglobals">
+<ClassMethod>1</ClassMethod>
+<ReturnType>%Status</ReturnType>
+<Implementation><![CDATA[
+    Set sc = $$$OK
+    Set Filename = ##class(%File).TempFilename()
+    Set sc = ##class(lscalese.configcopy.LocalExport).Globals(Filename)
+    
+    If $$$ISERR(sc) {
+        Do:##class(%File).Exists(Filename) ##class(%File).Delete(Filename)
+        $$$ThrowStatus(sc)
+    }
+
+    Set fcs = ##class(%Stream.FileCharacter).%New()
+    Set sc = fcs.LinkToFile(Filename)
+    If $$$ISERR(sc) $$$ThrowStatus(sc)
+    #dim cs As %Stream.GlobalCharacter = ##class(%Stream.GlobalCharacter).%New()
+    Do cs.CopyFrom(fcs)
+
+    Do ##class(%File).Delete(Filename)
+
+    Do cs.OutputToDevice()
+
+    Return $$$OK
+]]></Implementation>
+</Method>
+
+<Method name="ExportConfig">
+<Description>
+Export configuration in config-api format : https://github.com/lscalese/iris-config-api .</Description>
+<ClassMethod>1</ClassMethod>
+<ReturnType>%Status</ReturnType>
+<Implementation><![CDATA[
+    Set sc = $$$OK, restore = $$$NO
+    Try {
+        Do ##class(IORedirect.Redirect).ToString()
+        Set restore = $$$YES
+        Set config = ##class(lscalese.configcopy.LocalExport).CPFDataTemplate(.sc, "Default")
+    } Catch (ex) {
+         Set sc = ex.AsStatus()
+    }
+    If restore {
+        Do ##class(IORedirect.Redirect).RestoreIO()
+        Do ##class(IORedirect.Redirect).ClearConfig()
+    }
+    If $$$ISERR(sc) {
+        $$$ThrowStatus(sc)
+    }
+    Write config.%ToJSON()
+
+    Return $$$OK
+]]></Implementation>
+</Method>
+
+<Method name="ExportTasks">
+<Description>
+Export all users defined tasks in XML format.</Description>
+<ClassMethod>1</ClassMethod>
+<ReturnType>%Status</ReturnType>
+<Implementation><![CDATA[
+    Set sc = $$$OK
+    Set Filename = ##class(%File).TempFilename()
+    Set sc = ##class(lscalese.configcopy.LocalExport).Tasks(Filename)
+    
+    If $$$ISERR(sc) {
+        Do:##class(%File).Exists(Filename) ##class(%File).Delete(Filename)
+        $$$ThrowStatus(sc)
+    }
+
+    Set fcs = ##class(%Stream.FileCharacter).%New()
+    Set sc = fcs.LinkToFile(Filename)
+    If $$$ISERR(sc) $$$ThrowStatus(sc)
+    #dim cs As %Stream.GlobalCharacter = ##class(%Stream.GlobalCharacter).%New()
+    Do cs.CopyFrom(fcs)
+
+    Do ##class(%File).Delete(Filename)
+
+    Do cs.OutputToDevice()
+
+    Return $$$OK
+]]></Implementation>
+</Method>
+
+<Method name="ExportSecurity">
+<Description>
+Export all security settings in XML format</Description>
+<ClassMethod>1</ClassMethod>
+<ReturnType>%Status</ReturnType>
+<Implementation><![CDATA[
+    Set sc = $$$OK
+    Set Filename = ##class(%File).TempFilename()
+    Set sc = ##class(lscalese.configcopy.LocalExport).Security(Filename)
+    
+    If $$$ISERR(sc) {
+        Do:##class(%File).Exists(Filename) ##class(%File).Delete(Filename)
+        $$$ThrowStatus(sc)
+    }
+
+    Set fcs = ##class(%Stream.FileCharacter).%New()
+    Set sc = fcs.LinkToFile(Filename)
+    If $$$ISERR(sc) $$$ThrowStatus(sc)
+    #dim cs As %Stream.GlobalCharacter = ##class(%Stream.GlobalCharacter).%New()
+    Do cs.CopyFrom(fcs)
+
+    Do ##class(%File).Delete(Filename)
+
+    Do cs.OutputToDevice()
+
+    Return $$$OK
+]]></Implementation>
+</Method>
+</Class>
+
+
 <Class name="lscalese.configcopy.rest.impl">
 <Description><![CDATA[
 Business logic class defined by OpenAPI in lscalese.configcopy.rest.spec<br/>
-Updated Sep 24, 2021 14:11:29]]></Description>
+Updated Sep 26, 2021 07:37:40]]></Description>
 <ProcedureBlock>1</ProcedureBlock>
 <Super>%REST.Impl</Super>
-<TimeChanged>66011,51089.195541</TimeChanged>
-<TimeCreated>66011,29869.272707</TimeCreated>
+<TimeChanged>66013,27460.949659</TimeChanged>
+<TimeCreated>66013,27460.734848</TimeCreated>
 
 <Parameter name="ExposeServerExceptions">
 <Description>
@@ -19684,8 +19920,8 @@ Export all security settings in XML format</Description>
 <Class name="lscalese.configcopy.rest.spec">
 <ProcedureBlock>1</ProcedureBlock>
 <Super>%REST.Spec</Super>
-<TimeChanged>66011,51089.092916</TimeChanged>
-<TimeCreated>66011,29869.313226</TimeCreated>
+<TimeChanged>66013,27460.778917</TimeChanged>
+<TimeCreated>66013,27460.778917</TimeCreated>
 
 <XData name="OpenAPI">
 <MimeType>application/json</MimeType>
