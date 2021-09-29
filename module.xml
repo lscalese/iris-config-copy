@@ -3,7 +3,8 @@
   <Document name="config-copy.ZPM">
     <Module>
       <Name>config-copy</Name>
-      <Version>1.0.1</Version>
+      <Version>1.0.2</Version>
+      <Description>This a tools to export configuration from an Interystems IRIS instance and import it to another.</Description>
       <Packaging>module</Packaging>
       <SourcesRoot>src/</SourcesRoot>
       <Resource Name="lscalese.configcopy.PKG"/>
